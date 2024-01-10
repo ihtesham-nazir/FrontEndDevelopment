@@ -36,3 +36,34 @@
     transform: rotate(360deg);
   }
 }
+
+.clockMain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: bisque;
+  height: 100vh;
+  width: 100%;
+}
+.clock {
+  width: 200px;
+  height: 200px;
+  border: 50%;
+  position: relative;
+}
+.clockHand {
+  position: absolute;
+  transform-origin: 50% 100%;
+}
+.hour {
+  width: 20px;
+  height: 70px;
+}
+.mintes {
+  width: 16px;
+  height: 80px;
+}
+.second {
+  width: 12px;
+  height: 90px;
+}
